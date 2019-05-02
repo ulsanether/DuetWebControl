@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <languages>
-	<kr name="Korean">
+	<ko name="korean">
 		<!-- JavaScript Strings -->
 		<string t="Connect">연결</string>
 		<string t="Connecting...">연결 중...</string>
@@ -14,15 +14,15 @@
 		<string t="({0}mm remaining)">({0}mm 남은)</string>
 		<string t="Printing {0}, {1}% Complete">프린팅 {0}, {1}% 완료</string>
 		<string t="{0}% Complete">{0}% 완료</string>
-		<string t="Printing {0}">프린팅 {0}</string>
-		<string t="Printed {0}, 100% Complete">인쇄된 {0}, 100% 완료</string>
+		<string t="Printing {0}">{0} 프린팅</string>
+		<string t="Printed {0}, 100% Complete">{0} 출력된, 100% 완료</string>
 		<string t="Print Complete!">인쇄 완료!</string>
-		<string t="none">없  음</string>
+		<string t="none">없 음</string>
 		<string t="Emergency Stop!">긴급 정지!</string>
 		<string t="Error reason: {0}">에러 원인: {0}</string>
 		<string t="Communication Error">통신 에러</string>
 		<string t="Zero All Drives">모든 드라이버가 0</string>
-		<string t="Zero Extruder Drive {0}">익스트트루더 모터가 {0}</string>
+		<string t="Zero Extruder Drive {0}">익스트트루더 드라이브가 {0}</string>
 		<string t="Message Log cleared!">메세지 로그가 지워졌습니다!</string>
 		<string t="ATX Power">ATX-파워</string>
 		<string t="Heater Fault">히터 고장</string>
@@ -40,8 +40,8 @@
 		<string t="Paused">일시 중지된</string>
 		<string t="Resuming">재개</string>
 		<string t="Printing">프린팅</string>
-		<string t="Busy">바쁜상태</string>
-		<string t="Idle">빈둥거림</string>
+		<string t="Busy">활동중</string>
+		<string t="Idle">대기중</string>
 		<string t="off">꺼짐</string>
 		<string t="standby">예비품</string>
 		<string t="active">활동적인</string>
@@ -75,7 +75,7 @@
 		<string t="General">일반적인</string>
 		<string t="Upload File(s)">파일 업로드</string>
 		<string t="Connect automatically">자동으로 연결</string>
-		<string t="Half Z Movements">Z축 50% 동작</string>
+		<string t="Half Z Movements">Z축 1/2 동작</string>
 		<string t="Log any successful G-Code">완료한 G-CODE는 기록</string>
 		<string t="Always Convert G-Codes to Upper-Case">항상 G-CODE는 대문자로 표시</string>
 		<string t="Display File Sizes with Binary Prefix">바이터리 파일 크기를 접두사로 표시</string>
@@ -174,14 +174,14 @@
 		<string t="Drive 3">드라이브 3</string>
 		<string t="Drive 4">드라이브 4</string>
 		<string t="Drive 5">드라이브 5</string>
-		<string t="D1">M1</string>
-		<string t="D2">M2</string>
-		<string t="D3">M3</string>
-		<string t="D4">M4</string>
-		<string t="D5">M5</string>
+		<string t="D1">D1</string>
+		<string t="D2">D2</string>
+		<string t="D3">D3</string>
+		<string t="D4">D4</string>
+		<string t="D5">D5</string>
 		<string t="Sensors">센서</string>
-		<string t="Fan RPM">팬-RPM</string>
-		<string t="ATX Power:">ATX-파워:</string>
+		<string t="Fan RPM">팬 RPM</string>
+		<string t="ATX Power:">ATX 파워:</string>
 		<string t="Fan Control:">팬속도 조정:</string>
 		<string t="File Name">파일이름</string>
 		<string t="Object Height">오브젝트 높이</string>
@@ -239,12 +239,12 @@
 		<string t="Resume paused print (M24)">일시 중지 된 인쇄 재개 (M24)</string>
 		<string t="Enforce a predefined fan value">미리 정의 된 팬 값 적용 </string>
 		<string t="Run M1 when the print has finished">인쇄가 끝나면 M1을 실행하십시오.</string>
-		<string t="Upload one or more G-Code files (drag&amp;drop is supported as well)">Eine oder mehr Dateien hochladen (Drag&amp;Drop wird ebenfalls unterstützt)</string>
-		<string t="Upload one or more files to the /sys or /www directory (drag&amp;drop is supported as well)">은 / SYS 또는 / WWW 디렉토리에 하나 개 이상의 파일을 업로드(Drag&amp;Drop wird ebenfalls unterstützt)</string>
+		<string t="Upload one or more G-Code files (drag&amp;drop is supported as well)">하나 이상의 G코드 업로드 (드로그엔 드롭 지원됩니다.)</string>
+		<string t="Upload one or more files to the /sys or /www directory (drag&amp;drop is supported as well)">은 / SYS 또는 / WWW 디렉토리에 하나 개 이상의 파일을 업로드(드로그엔 드롭 지원됩니다.)</string>
 		<string t="Print this file (M32)">이 파일 인쇄 (M32) </string>
 		<string t="Delete this file">이 파일 삭제</string>
 		<string t="Delete this directory">이 디렉토리 삭제</string>
-		<string t="Upload one or more macro files (drag&amp;drop is supported as well)">하나 이상의 매크로 파일을 업로드 (Drag&amp;Drop wird ebenfalls unterstützt)</string>
+		<string t="Upload one or more macro files (drag&amp;drop is supported as well)">하나 이상의 매크로 파일을 업로드(D드로그엔 드롭 지원됩니다.)</string>
 		<string t="Run this macro file (M98)">이 매크로 파일 실행 (M98)</string>
 		<string t="Delete this macro">이 매크로 삭제 </string>
 		<string t="Connect automatically to the Duet once the web interface is ready">웹 인터페이스가 준비되면 Duet에 자동으로 연결</string>
@@ -293,9 +293,9 @@
 		<string t="Yes">YES</string>
 		<string t="No">NO</string>
 		<string t="Start Print">인쇄 시작</string>
-		<string t="Do you want to print &lt;strong&gt;{0}&lt;/strong&gt;?">인쇄 하시겠습니까? &lt;strong&gt;{0}&lt;/strong&gt; drucken?</string>
+		<string t="Do you want to print &lt;strong&gt;{0}&lt;/strong&gt;?">&lt;strong&gt;{0}&lt;/strong&gt;을 인쇄 하시겠습니까?</string>
 		<string t="Delete File">파일 삭제</string>
-		<string t="Are you sure you want to delete &lt;strong&gt;{0}&lt;/strong&gt;?">정말로 파일을 삭제 하겠습니까? &lt;strong&gt;{0}&lt;/strong&gt; </string>
+		<string t="Are you sure you want to delete &lt;strong&gt;{0}&lt;/strong&gt;?">&lt;strong&gt;{0}&lt;/strong&gt; 이 파일을 삭제 하겠습니까? </string>
 		<string t="Deletion failed">파일을 삭제 할 수 없습니다</string>
 		<string t="&lt;strong&gt;Warning:&lt;/strong&gt; Could not delete file &lt;strong&gt;{0}&lt;/strong&gt;!">&lt;strong&gt;Warning:&lt;/strong&gt; 파일을 삭제 할 수없습니다 &lt;strong&gt;{0}&lt;/strong&gt;!</string>
 		<string t="&lt;strong&gt;Warning:&lt;/strong&gt; Could not delete directory &lt;strong&gt;{0}&lt;/strong&gt;!&lt;br/&gt;&lt;br/&gt;Perhaps it isn't empty?">&lt;strong&gt;Warning:&lt;/strong&gt; 디렉토리를 삭제 할 수 없습니다 &lt;strong&gt;{0}&lt;/strong&gt;!&lt;br/&gt;&lt;br/&gt;Perhaps it isn't empty?"</string>
@@ -319,7 +319,7 @@
 		<string t="Upload Complete!">업로드 완료!</string>
 		<string t="Cancel Upload(s)">업로드 취소</string>
 		<string t="Close">닫기</string>
-		<string t="Are you sure you wish to remove tool {0}?">{0} 도구를 제거 하시겠습니까?</string>
+		<string t="Are you sure you wish to remove tool {0}?">도구 {0}을 제거 하시겠습니까?</string>
 
 		<!-- New in v1.07 -->
 		<string t="Reboot Duet?">Duet을 재부팅 하겠습니까?</string>
@@ -350,7 +350,7 @@
 		<string t="never">절대</string>
 		<string t="Firmware Diagnostics">펌웨어 상태확인</string>
 		<string t="Use dark theme">어두운 테마 사용</string>
-		<string t="Use dark theme by Fotomas">Fotomas의 어두운 테마 사용/string>
+		<string t="Use dark theme by Fotomas">Fotomas의 어두운 테마 사용</string>
 		<string t="Dark theme kindly provided by Fotomas">Fotomas가 제공한 어두운 테마 </string>
 
 		<!-- New in v1.08 -->
@@ -387,7 +387,7 @@
 		<string t="(not set)">(설정 안된)</string>
 		<string t="Current Z-Probe reading on a scale between 0 and 1024">현재 0~1024 범위의 Z-프로브 판독 값</string>
 		<string t="Current Fan RPM (needs a 4-pin PWM fan and proper wiring)">현재 팬 RPM (4 핀 PWM 팬 및 적절한 배선 필요)</string>
-	</de>
+	</ko>
 	<de name="Deutsch">
 		<!-- JavaScript Strings -->
 		<string t="Connect">Verbinden</string>
